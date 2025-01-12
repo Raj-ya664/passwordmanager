@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", system-ui;
+}
+
+nav{
+    background-color: rgb(124, 117, 117);
+    padding: 12px 3px;
+    display: flex;
+    justify-content: space-between;
+
+}
+ul{
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+
+}
+
+.logo{
+    margin: 0 23px;
+    font-size: 25px;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+}
+
+ul li{
+    list-style: none;
+    margin: 0px 12px;
+
+}
+ul >li:hover{
+    color: azure;
+}
+
+table, td, tr {
+    border-collapse: collapse;
+    border: 2px solid black ;
+    padding: 5px 13px;
+}
+.container{
+    max-width: 80vh;
+    margin: 23px auto;
+
+}
+
+h1,h2 {
+    margin: 23px 0;
+}
+
+.btn{
+    padding: 8px 17px;
+    font-weight: bolder;
+    color: aliceblue;
+    border-radius: 8px;
+    border: 2px solid grey;
+    margin: 25px 0;
+    background-color: black;
+
+}

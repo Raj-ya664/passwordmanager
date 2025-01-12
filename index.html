@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Passworld manager personal  </title>
+</head>
+<body>
+    <nav>
+        <div class="logo">PassX</div>
+        <ul>
+            <li>Home </li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Passworld Manager</h1>
+        <p>A  password manager is like a 
+            digital guardian for your online life. It generates strong,
+             unique passwords, stores them securely in an encrypted vault,
+            and even fills them in for you when you log into your accounts.
+            With just one master password to remember, you gain access to this virtual fortress
+            where your sensitive information remains shielded from prying eyes.
+           </p>
+        <h2>Your Passworlds</h2>
+        <table>
+            <tr>
+              <th>website </th>
+              <th>Username </th>
+              <th>Password</th>
+              <th>Delete</th>
+            </tr>
+            
+            
+              
+          </table>
+          
+        <h2>Add passworld</h2>
+
+        <form action="/submit" method="post">
+
+            <!-- input the website -->
+             <label for="website">Website:
+             </label>
+             <input type="text" id="username" name="website" required>
+            <!-- Text input for username -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <br><br>
+        
+            <!-- Password input -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <!-- Submit button -->
+             <br>
+            <button type="sumit" class="btn">Sumit</button>
+          </form>
+        
+    </div>
+<script src="script.js"></script>
+    
+    
+</body>
+</html>
